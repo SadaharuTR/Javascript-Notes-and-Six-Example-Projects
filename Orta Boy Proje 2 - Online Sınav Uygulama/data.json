@@ -1,0 +1,84 @@
+{
+    "sorular": [
+        {
+            "soru": "Aşağıdaki futbolculardan hangisi Messi ve Ronaldo'dan daha iyidir?",
+            "secenekA": "Yasin Öztekin",
+            "secenekB": "Mbappe",
+            "secenekC": "Mionel Lessi",
+            "secenekD": "Cristiano Ronaldinho",
+            "cevap": "secenekA"
+        },
+        {
+            "soru": "Aşağıdakilerden hangisinin yazımı doğrudur?",
+            "secenekA": "Eksoz",
+            "secenekB": "Egzos",
+            "secenekC": "Eksoz",
+            "secenekD": "Egzoz",
+            "cevap": "secenekD"
+        },
+        {
+            "soru": "Aşağıdakilerden hangisinin yazımı yanlıştır?",
+            "secenekA": "Yalnış",
+            "secenekB": "Yalnız",
+            "secenekC": "Egzoz",
+            "secenekD": "Arabesk",
+            "cevap": "secenekA"
+        },
+        {
+            "soru": "Aşağıdakilerden hangisi dünyanın en iyi yazılım dilidir?",
+            "secenekA": "Javascript",
+            "secenekB": "C#",
+            "secenekC": "C++",
+            "secenekD": "C",
+            "cevap": "secenekB"
+        },
+        {
+            "soru": "9-3÷(1/3)+1 işleminin sonucu kaçtır?",
+            "secenekA": "3",
+            "secenekB": "1",
+            "secenekC": "19",
+            "secenekD": "2",
+            "cevap": "secenekB"
+        },
+        {
+            "soru": "Fiyatlar genel seviyesindeki sürekli artışın ekonomideki adı nedir?",
+            "secenekA": "Devalüasyon",
+            "secenekB": "Enflasyon",
+            "secenekC": "Zam",
+            "secenekD": "Deflasyon",
+            "cevap": "secenekB"
+        },
+        {
+            "soru": "Aşağıdakilerden hangisi Osmanlı Padişahı değildir?",
+            "secenekA": "II.Mehmed",
+            "secenekB": "I.Ahmed",
+            "secenekC": "II.Osman",
+            "secenekD": "II.Orhan",
+            "cevap": "secenekD"
+        },
+        {
+            "soru": "Aşağıdakilerden hangisi yüksek yargı organları arasında yer almaz?",
+            "secenekA": "Danıştay",
+            "secenekB": "Yargıtay",
+            "secenekC": "Anayasa Mahkemesi",
+            "secenekD": "Ağır Ceza Mahkemesi",
+            "cevap": "secenekD"
+        },
+        {
+            "soru": "2019 Avrupa Kadınlar Voleybol Şampiyonasında Türkiye finalde hangi takıma kaybetmiştir?",
+            "secenekA": "İtalya",
+            "secenekB": "Polonya",
+            "secenekC": "Sırbistan",
+            "secenekD": "Rusya",
+            "cevap": "secenekC"
+        },
+        {
+            "soru": "Aşağıdakilerden hangisi bir fobi türü değildir?",
+            "secenekA": "Akrofobi",
+            "secenekB": "Trantofobi",
+            "secenekC": "Aquafobi",
+            "secenekD": "Otofobi",
+            "cevap": "secenekB"
+        }
+    ]
+}

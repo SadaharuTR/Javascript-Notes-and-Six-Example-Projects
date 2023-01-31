@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>30DaysOfScript:Inline Script</title>
+    <style>
+      .error{
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Event'ler HTML elemanlarına inline script olarak direkt atanabilir. -->
+    <!-- <button id="btn" onclick="console.log('butona basıldı.')">Click Me!</button> -->
+
+    <!-- this ile html elemanının kendisini fonksiyona argüman olarak gönderip, ve fonksiyonda gelen elemanın argümanını kullanabiliriz.
+    bu sayede hangi buton olduğunu ayırt edebiliriz. -->
+    <!-- 
+    <button id="btn" onclick="clickHandle(this)">Click Me!</button>
+    <button id="btn2" onclick="clickHandle(this)">Click Me 2!</button>
+    -->
+
+    <!-- 
+    <button id="btn">Click Me!</button>
+    <button id="btn2">Click Me 2!</button>
+    -->
+
+    <!-- hatasız resim -->
+    <!-- <img src="https://github.com/Asabeneh/30-Days-Of-JavaScript/raw/master/images/banners/day_1_23.png" alt=""> -->
+
+    <!-- bozuk link -->
+    <!-- <img src="https://github.cm/Asabeneh/30-Days-Of-JavaScript/raw/master/images/banners/day_1_23.png" alt=""> -->
+<!-- 
+    <form id="form" onsubmit="return false">
+      <input type="text" id="name" placeholder="Adınızı yazınız: ">
+      <input type="color" id="color-picker">
+      <select id="gender" multiple>
+        <option value="">Sec</option>
+        <option value="erkek">Erkek</option>
+        <option value="kadin">Kadın</option>
+      </select>
+    
+      <label>
+        <input type="checkbox" id="save-rules">
+        Kuralları kabul edeyirum.
+      </label>
+    
+      <div>
+        <label>
+          <input type="radio" name="stack" value="lamp">
+          LAMP
+        </label>
+        <label>
+          <input type="radio" name="stack" value="wamp">
+          WAMP
+        </label>
+      </div>
+    
+      <button id="save-btn">Kaydettin Şemsi Hurgüç</button>
+    </form> -->
+<!-- 
+    <h1>Body Mass Calculator</h1>
+    <input type="text" id="mass" placeholder="Mass in kg">
+    <input type="text" id="height" placeholder="Height in meters">
+    <button>Calculate!</button> -->
+
+<!--     
+    <h1>baslik 1</h1>
+    <h1>baslik 2</h1>
+    <h1>baslik 3</h1>
+    <h1>baslik 4</h1> -->
+
+<!-- 
+    <h1 class ="title-1">baslik 1</h1>
+    <h1 class ="title-1">baslik 2</h1>
+    <h1 id="title">baslik 3</h1>
+    <h1 class ="title-2">baslik 4</h1>
+
+    <div class="title-1">bu bir divdir.</div> -->
+
+<!--     
+    <h1 class ="title-1">baslik 1</h1>
+    <h1 class ="title-1">baslik 2</h1>
+    <h1 id="title" class="tatava test1 test2">baslik 3</h1>
+    <h1 class ="title-2">baslik 4</h1>
+
+    <div class="title-1">bu bir divdir.</div>
+
+    <ul>
+      <li>30DaysOfPython Challenge Done</li>
+      <li>30DaysOfJavaScript Challenge Ongoing</li>
+      <li>30DaysOfReact Challenge Coming</li>
+      <li>30DaysOfFullStack Challenge Coming</li>
+      <li>30DaysOfDataAnalysis Challenge Coming</li>
+      <li>30DaysOfReactNative Challenge Coming</li>
+      <li>30DaysOfMachineLearning Challenge Coming</li>
+    </ul> -->
+
+    <!-- 
+    <h1>Data Binding using input or change event</h1>
+    <input type="text" placeholder="say something" />
+    <p></p>
+
+    <script>
+      const input = document.querySelector('input')
+      const p = document.querySelector('p')
+
+      input.addEventListener('input', e => {
+        p.textContent = e.target.value
+      })
+    </script> 
+    -->
+    <!-- 
+    <h1>Giving feedback using blur event</h1>
+
+    <input type="text" id="mass" placeholder="say something" />
+    <p></p>
+
+    <script>
+        const input = document.querySelector('input')
+        const p = document.querySelector('p')
+
+        input.addEventListener('blur', (e) => {
+            p.textContent = 'Field is required'
+            p.style.color = 'red'
+
+        })
+    </script>
+    -->
+
+    <h1>Key events: Press any key</h1>
+
+    <script>
+      // document.body.addEventListener('keypress', e => {
+      //   alert(e.keyCode)
+      // })
+
+      // document.body.addEventListener('keydown', e => {
+      //   console.log(e)
+      //   console.log(e.key)
+      //   console.log(e.code, e.key)
+      // })
+    </script>
+
+    <script src="./dom.js"></script>
+
+  </body>
+</html>

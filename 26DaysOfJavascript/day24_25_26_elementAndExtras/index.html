@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>30DaysOfScript:Inline Script</title>
+    <style>
+        /* scroll işlemi akıcı olsun */
+        .scroll-content, .scroll-content2 {
+            scroll-behavior: smooth;
+        }
+    </style>
+  </head>
+  <body>
+
+    <input type="text" />
+    <button>toggle</button>
+<hr>
+    <button type="button">buton</button>
+    <button type="submit">submit button</button>
+    <button type="reset">reset button</button>
+    <button disabled type="submit">disabled submit button</button>
+
+    <a href="https://google.com">Cagatay</a>
+    <hr>
+    <a href="https://www.youtube.com/channel/UCbn0vJvuEHFklmf1FuHu5Tw" title="Cagatay Demirtas Youtube Kanalı">Caga Youtube</a>
+    
+    <h1>Niteliksiz Header</h1>
+    <h1 title="Nitelikli başlık.">Nitelikli Header</h1>
+
+    <!-- <h1 title="test1" style = "color: red; background-color: yellow;" class="test" id="deneme">Cagatay</h1> -->
+
+    <!-- <ul>
+        <li class="delete-btn">
+            item 1
+        </li>
+        <li class="delete-btn">
+            item 2
+        </li>
+        <li class="delete-btn">
+            item 3
+        </li>
+        <li class="delete-btn">
+            item 4
+        </li>
+    </ul> -->
+
+    <ul>
+        <li>
+            item 1
+            <button class="delete-button">Sil</button>
+        </li>
+        <li>
+            item 2
+            <button class="delete-button">Sil</button>
+        </li>
+        <li>
+            item 3
+            <button class="delete-button">Sil</button>
+        </li>
+        <li>
+            item 4
+            <button class="delete-button">Sil</button>
+        </li>
+    </ul>
+
+    <ul></ul>
+
+    <div class="test" style="padding: 20px">
+        <div>eleman 1</div>
+        <div style="padding: 10px">eleman 2</div>
+        <div>eleman 3</div>
+    </div>
+
+    <div>div etiketi</div>
+    <h1 class="title">Başlık</h1>
+    <p>paragraf</p>
+    
+    <div class="scroll-content" style="height: 70px; overflow: auto">
+        test <br>
+        test <br>
+        test <br>
+        test <br>
+        test <br>
+        test <br>
+        test <br>
+        test <br>
+        test <br>
+        test <br>
+        test <br>
+    </div>
+
+    <button id="scroll-down">Asagi Kaydir</button>
+    <hr>
+    <button id="scroll-left">Sola Kaydir</button>
+    <button id="scroll-right">Sağa Kaydir</button>
+
+<hr>
+
+    <div class="scroll-content2" style="width: 200px; display: flex; white-space: nowrap; overflow: auto">
+        <div style="width:100px; flex-shrink: 0">test</div>
+        <div style="width:100px; flex-shrink: 0">test</div>
+        <div style="width:100px; flex-shrink: 0">test</div>
+        <div style="width:100px; flex-shrink: 0">test</div>
+        <div style="width:100px; flex-shrink: 0">test</div>
+        <div style="width:100px; flex-shrink: 0">test</div>
+    </div>
+    
+    <div id="adana" style="background-color:red">Adana</div>
+
+    <script>
+        // Element.attributes elemana ait nitelikleri döndürür.
+
+        // const h1 = document.getElementById('deneme')
+        // const attributes = h1.attributes
+
+        // for(const attr of attributes){
+        //     console.log(attr.name, attr.value)
+        // }
+    </script>
+
+    <script src="./element.js"></script>
+
+
+  </body>
+</html>
